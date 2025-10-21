@@ -1,0 +1,87 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif; /* ກຳນົດຟອນທີ່ໃຊ້ */
+    background: white;   /* ສີພື້ນຫຼັງ */
+    margin: 0; /* ຕັດຂອບເວັ້ນໃຫ້ໝົດ */
+    display: flex; /* ໃຊ້ Flexbox ໃນການຈັດວາງ */
+    justify-content: center; /* ຈັດວາງໃຫ້ຢູ່ກາງແນວນອນ */
+    align-items: center; /* ຈັດວາງໃຫ້ຢູ່ກາງແນວຕັ້ງ */
+    height: 100vh; /* ຄວາມສູງໃຫ້ເທົ່າກັບຫນ້າຈໍ */
+}
+
+.login-container {
+    background:white; /* ພື້ນຫຼັງສີຂາວ */
+    width: 360px; /* ກຳນົດຄວາມກວ້າງ */
+    padding: 40px 30px; /* ເວັ້ນພື້ນທີ່ຂ້າງໃນ */
+    border-radius: 8px; /* ຂອບໂຄ້ງ */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* ເງົາກ່ອງ */
+    text-align: center; /* ຈັດໂຕອັກສອນໃຫ້ຢູ່ກາງ */
+}
+
+.logo {
+    width: 120px; /* ກຳນົດຄວາມກວ້າງໂລໂກ້ */
+    margin-bottom: 20px; /* ລະຍະຫ່າງຈາກຂ້າງລຸ່ມ */
+}
+
+h2 {
+    margin-bottom: 20px; /* ລະຍະຫ່າງຈາກຂ້າງລຸ່ມ */
+    color: black; /* ສີຕົວອັກສອນ */
+    font-weight: normal; /* ຄວາມໜາຂອງຟອນປົກກະຕິ */
+}
+
+label {
+    display: block; /* ສະແດງແບບ block */
+    text-align: left; /* ຈັດຊື່ label ໄປຊ້າຍ */
+    margin-top: 15px; /* ລະຍະຫ່າງຈາກຂ້າງເທິງ */
+    font-size: 14px; /* ຂະໜາດຟອນ */
+    color: black; /* ສີຂອງຕົວອັກສອນ */
+}
+
+input {
+    width: 100%; /* ໃຫ້ກວ້າງເຕັມກ່ອງ */
+    padding: 10px; /* ເວັ້ນຂ້າງໃນ */
+    margin-top: 5px; /* ລະຍະຫ່າງຂ້າງເທິງ */
+    border: 1px solid whitesmoke; /* ຂອບສີເທົາ */
+    border-radius: 4px; /* ຂອບໂຄ້ງ */
+    font-size: 14px; /* ຂະໜາດຟອນ */
+}
+
+.login-btn {
+    width: 100%; /* ກວ້າງເຕັມກ່ອງ */
+    background: green; /* ສີພື້ນຫຼັງຂຽວ */
+    color: whitesmoke; /* ສີຕົວອັກສອນຂາວ */
+    border: none; /* ບໍ່ມີຂອບ */
+    padding: 12px; /* ເວັ້ນຂ້າງໃນ */
+    font-size: 16px; /* ຂະໜາດຟອນ */
+    margin-top: 20px; /* ລະຍະຫ່າງຈາກຂ້າງເທິງ */
+    border-radius: 4px; /* ຂອບໂຄ້ງ */
+    cursor: pointer; /* ປ່ຽນເມົ້າເປັນມືເມື່ອຊີ້ */
+    transition: background 0.3s ease; /* ການປ່ຽນສີພື້ນຫຼັງໃຫ້ນຸ່ມນວນ */
+}
+.login-btn:hover {
+    background: green; /* ປ່ຽນສີເມື່ອຊີ້ */
+}
+
+.qr-btn {
+    width: 100%; /* ກວ້າງເຕັມກ່ອງ */
+    background: white; /* ສີພື້ນຂາວ */
+    color: green; /* ສີຕົວອັກສອນຂຽວ */
+    border: 2px solid green /* ຂອບຂຽວ */
+    padding: 12px; /* ເວັ້ນຂ້າງໃນ */
+    font-size: 16px; /* ຂະໜາດຟອນ */
+    margin-top: 15px; /* ລະຍະຫ່າງຂ້າງເທິງ */
+    border-radius: 4px; /* ຂອບໂຄ້ງ */
+    cursor: pointer; /* ເມົ້າເປັນມື */
+    transition: all 0.3s ease; /* ໃຫ້ການປ່ຽນຄ່າທຸກຢ່າງເປັນໄປຢ່າງນຸ່ມ */
+}
+.qr-btn:hover {
+    background: green; /* ປ່ຽນພື້ນຫຼັງເມື່ອຊີ້ */
+    color: #fff; /* ປ່ຽນສີຕົວອັກສອນເປັນຂາວ */
+}
+
+a {
+    display: block; /* ສະແດງແບບ block */
+    margin-top: 15px; /* ລະຍະຫ່າງຈາກຂ້າງເທິງ */
+    font-size: 14px; /* ຂະໜາດຟອນ */
+    color: green; /* ສີຂຽວ */
+    text-decoration: none; /* ລົບເສັ້ນຂີດລ່າງ */
+}
